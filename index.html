@@ -13,35 +13,37 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | Blog preview card</title>
+  <title>Blog Preview Card</title>
 </head>
 
-<body>
+<body class="d-flex flex-column justify-content-center align-items-center bg-warning bg-opacity-75 min-vh-100 p-5">
   <main class="card">
     <div class="image">
-      <img src="./assets/images/illustration-article.svg" alt="card image">
+      <img src="./assets/images/illustration-article.svg" alt="card image" class="img-fluid rounded-3 text-center text-dark" style="margin-top: 12px; margin-bottom: 12px;">
     </div>
 
-    <div class="tag">
+    <div class=" tag bg-warning bg-opacity-75 p-2 align-self-start d-inline-block fs-6 py-1 rounded-2" style="margin-bottom: 12px; font-weight: 800; padding-right: 12px;">
       Learning
     </div>
 
-    <div class="publish-date">
+    <div class="publish-date" style="margin-bottom: 12px;">
       Published 21 Dec 2023
     </div>
 
     <div class="title">
-      <h1>HTML & CSS foundations</h1>
+      <h1 style="font-weight: 800; font-size: xx-large;">HTML & CSS foundations</h1>
     </div>
 
-    <div class="context">
+    <div class="context text-secondary lh-base mb-4">
       These languages are the backbone of every website, defining structure, content, and presentation.
     </div>
 
     <div class="author">
       <img class="avatar" src="./assets/images/image-avatar.webp" alt="Greg Hooper's avatar">
-      <span class="name">Greg Hooper</span>
+      <span class="name" style="font-weight:800;">Greg Hooper</span>
     </div>
   </main>
 
