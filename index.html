@@ -7,7 +7,6 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -20,9 +19,9 @@
 </head>
 
 <body class="d-flex flex-column justify-content-center align-items-center bg-warning bg-opacity-75 min-vh-100 p-5">
-  <main class="card">
+  <main class="card p-4 rounded-5 border-4 border-dark" style="max-width: 384px;">
     <div class="image">
-      <img src="./assets/images/illustration-article.svg" alt="card image" class="img-fluid rounded-3 text-center text-dark" style="margin-top: 12px; margin-bottom: 12px;">
+      <img src="./assets/images/illustration-article.svg" alt="card image" class="img-fluid w-100 rounded-3 text-center text-dark" style="margin-top: 12px; margin-bottom: 12px;">
     </div>
 
     <div class=" tag bg-warning bg-opacity-75 p-2 align-self-start d-inline-block fs-6 py-1 rounded-2" style="margin-bottom: 12px; font-weight: 800; padding-right: 12px;">
@@ -34,10 +33,10 @@
     </div>
 
     <div class="title">
-      <h1 style="font-weight: 800; font-size: xx-large;">HTML & CSS foundations</h1>
+      <h1 class="fs-5 text-wrap" style="font-weight: 800; font-size: xx-large;">HTML & CSS foundations</h1>
     </div>
 
-    <div class="context text-secondary lh-base mb-4">
+    <div class="context text-secondary lh-base" style="margin-bottom: 20px;">
       These languages are the backbone of every website, defining structure, content, and presentation.
     </div>
 
